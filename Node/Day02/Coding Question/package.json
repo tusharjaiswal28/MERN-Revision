@@ -1,0 +1,17 @@
+{
+  "name": "coding-question",
+  "version": "1.0.0",
+  "description": "Create an Express middleware that implements Basic Authentication. Create protected routes that require authentication. Include login endpoint that sets cookies and middleware to verify them on subsequent requests.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1"
+  }
+}
